@@ -3,8 +3,13 @@ body {
   color: azure;
 }
 
-.movie-app>.row {
+.row {
   overflow-x: auto;
   flex-wrap: nowrap;
 
+}
+
+.rowOne{
+  display: flex;
+  align-items: center;
 }

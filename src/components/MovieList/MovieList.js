@@ -1,9 +1,9 @@
 import React from "react";
-import "./MovieList.css";
+import classes from "./MovieList.module.css";
 const MovieList = (props) => {
   return (
     <>
-      <div className="d-flex justify-content-space-center m-3 gap-4">
+      <div className={classes.movieList}>
         {props.movies.map((movie, index) => (
           <img src={movie.Poster} alt="movie"></img>
         ))}
