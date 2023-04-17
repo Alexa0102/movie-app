@@ -4,8 +4,7 @@ body {
 }
 
 .row {
-  overflow-x: auto;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 
 }
 

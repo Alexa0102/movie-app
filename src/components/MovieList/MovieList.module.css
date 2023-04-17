@@ -1,7 +1,6 @@
 .movieList {
     display: flex;
     justify-content: flex-start;
-    margin: 3rem;
     gap: 3rem;
 
 }
@@ -41,4 +40,13 @@
 	font-size: 20px;
 	padding: 20px;
 	text-align: center;
+}
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+.movieList{
+    overflow-x:scroll;
+    
+    padding: 2rem;
+    overflow-y: hidden;
 }

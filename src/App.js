@@ -63,13 +63,11 @@ function App() {
             setSearchValue={setSearchValue}
           />
         </div>
-        <div className="row">
           <MovieList
             movies={movies}
             handleFavouriteClick={addFavouriteMovie}
             favoutiteComponent={AddFavourites}
           />
-        </div>
         <div className="rowOne d-flex align-items-center mt-4 mb-2">
           <Heading heading="Favourites" />
         </div>
