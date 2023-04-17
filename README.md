@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Single Page App for browsing favourite movies fetched from OMDB API. We have a functional search bar to browse through the movies. 
+Movies added to the favourites list are saved to local storage. Used some Bootstrap styles and icons.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
